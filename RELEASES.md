@@ -11,6 +11,7 @@ Every release of the Hush web app at **https://hushappofficial.com** is listed h
 | 1 | 2026-10-09 | Go-live: first release on hushappofficial.com | `230981406a09e72623baf55b34ac33ec11186852ca1dbd868d48bc9c094b9072` |
 | 2 | 2026-10-09 | Founder badge, tappable @mentions, @mention picker | `78e87b54de583f73e15da9edaea62e9699400bd9f8943d9a0345c8b086771514` |
 | 3 | 2026-10-09 | Caching fix: versioned file addresses so updates never mix old and new files | `84bb13e1c3808373b37e3cdf2787d4fbcf120918ee0907bbc4453e25d4e14290` |
+| 4 | 2026-10-09 | Badges shown everywhere a name appears (side menu, account lists, search, forwards, replies and more) | `7700d5364fdd25b7695aa4d62208b127d4d65f1fce834093be0ca78176b70e51` |
 
 ## How to check it yourself
 
