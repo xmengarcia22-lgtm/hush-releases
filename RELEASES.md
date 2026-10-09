@@ -1,0 +1,36 @@
+# Hush release fingerprints
+
+Every release of the Hush web app at **https://hushappofficial.com** is listed here with the SHA-256 fingerprint of its `index.html`.
+
+`index.html` carries an integrity fingerprint for every other file the app loads (scripts and styles), and browsers refuse any file that doesn't match. So this one fingerprint pins the whole app. If the page you are served matches the newest line below, you are running exactly the code that was released.
+
+**This list is append-only.** Lines are only ever added, never edited or removed. A fingerprint served by the site that doesn't appear here is a warning sign.
+
+| # | Date (UTC) | Release | SHA-256 of index.html |
+|---|------------|---------|-----------------------|
+| 1 | 2026-10-09 | Go-live: first release on hushappofficial.com | `230981406a09e72623baf55b34ac33ec11186852ca1dbd868d48bc9c094b9072` |
+| 2 | 2026-10-09 | Founder badge, tappable @mentions, @mention picker | `78e87b54de583f73e15da9edaea62e9699400bd9f8943d9a0345c8b086771514` |
+| 3 | 2026-10-09 | Caching fix: versioned file addresses so updates never mix old and new files | `84bb13e1c3808373b37e3cdf2787d4fbcf120918ee0907bbc4453e25d4e14290` |
+
+## How to check it yourself
+
+Download the page the site is serving and compute its fingerprint. The result should equal the newest line in the table.
+
+**Windows (PowerShell):**
+
+```
+curl.exe -s -o hush.html https://hushappofficial.com/
+certutil -hashfile hush.html SHA256
+```
+
+**macOS:**
+
+```
+curl -s https://hushappofficial.com/ | shasum -a 256
+```
+
+**Linux:**
+
+```
+curl -s https://hushappofficial.com/ | sha256sum
+```
