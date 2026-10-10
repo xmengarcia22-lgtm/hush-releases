@@ -15,6 +15,7 @@ Every release of the Hush web app at **https://hushappofficial.com** is listed h
 | 5 | 2026-10-09 | Neutral example phone numbers in sign-up and settings fields | `e87def444e4e654949627b1ee7e83bcf3c31cef567c71cdb8dddcc19b75ae247` |
 | 6 | 2026-10-09 | Swipe navigation, Back closes what is open, Contacts tab, own @mention opens Saved Messages | `13dffd0797428bf5991cf10264cfb015443ff0ea590e97f2f554a69ace5e1bc1` |
 | 7 | 2026-10-10 | Instant sign-up, log in with email, phone or username, emailed verification codes, 60-second resend cooldown, typed device-approval code | `787cefc8e7c04b06eea1073e00c64febb66768156526165bde5308a854b4bc9e` |
+| 8 | 2026-10-10 | New-device login fixes: retry after backing out, longer sign-in window, clearer error messages, update notice for open pages | `d169c3e5d851e266ca77c76e0a498c8ae489c2d39c631bac2a503c1c1a015c63` |
 
 ## How to check it yourself
 
