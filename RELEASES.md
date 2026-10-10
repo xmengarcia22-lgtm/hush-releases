@@ -14,6 +14,7 @@ Every release of the Hush web app at **https://hushappofficial.com** is listed h
 | 4 | 2026-10-09 | Badges shown everywhere a name appears (side menu, account lists, search, forwards, replies and more) | `7700d5364fdd25b7695aa4d62208b127d4d65f1fce834093be0ca78176b70e51` |
 | 5 | 2026-10-09 | Neutral example phone numbers in sign-up and settings fields | `e87def444e4e654949627b1ee7e83bcf3c31cef567c71cdb8dddcc19b75ae247` |
 | 6 | 2026-10-09 | Swipe navigation, Back closes what is open, Contacts tab, own @mention opens Saved Messages | `13dffd0797428bf5991cf10264cfb015443ff0ea590e97f2f554a69ace5e1bc1` |
+| 7 | 2026-10-10 | Instant sign-up, log in with email, phone or username, emailed verification codes, 60-second resend cooldown, typed device-approval code | `787cefc8e7c04b06eea1073e00c64febb66768156526165bde5308a854b4bc9e` |
 
 ## How to check it yourself
 
